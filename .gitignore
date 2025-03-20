@@ -1,0 +1,21 @@
+# Ignore virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore models and database configs
+models/*.pkl
+database/config.py
+
+# Ignore logs and cache files
+logs/
+*.log
+.pytest_cache/
+
+# Ignore IDE and system files
+.idea/
+.DS_Store
